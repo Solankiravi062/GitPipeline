@@ -25,5 +25,4 @@ pipeline {
                 echo 'Yupp...Code is ready to deliver.'
             }
         }
-    }
 }

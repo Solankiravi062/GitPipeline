@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Development') {
+            steps {
+                echo 'Hello My code is developed'
+            }
+        }
+         stages {
+        stage('Deploy') {
+            steps {
+                echo 'Code is ready to deploy'
+            }
+        }
+         stages {
+        stage('Test') {
+            steps {
+                echo 'Waiting for testing status'
+            }
+        }
+         stages {
+        stage('Deliver') {
+            steps {
+                echo 'Yupp...Code is ready to deliver.'
+            }
+        }
+    }
+}
